@@ -125,7 +125,7 @@ C2 --> R1
 R1 --> R2
 ```
 
---
+---
 
 # Core Operating Model Artifacts
 
