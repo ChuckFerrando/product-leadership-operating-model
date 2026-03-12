@@ -1,255 +1,248 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Stable-blue.svg)
-![Type](https://img.shields.io/badge/Type-Operating%20Model-purple.svg)
+![Type](https://img.shields.io/badge/Type-Framework-purple.svg)
 ![Pillar](https://img.shields.io/badge/Pillar-2%20Operating%20Model-black.svg)
 ![Product Leadership OS](https://img.shields.io/badge/Product%20Leadership-Operating%20System-black.svg)
 
-# Product Leadership Operating Model
+# Product Leadership Operating Cadence
 
-The **Product Leadership Operating Model** defines the leadership cadence, governance rhythms, executive forums, review structures, and operating mechanisms used to run the **Product Leadership Operating System (PLOS)**.
+The **Product Leadership Operating Cadence** defines the recurring timing architecture through which leadership teams execute the **Product Leadership Operating Model** across the **Product Leadership Operating System (PLOS)**.
 
-Where the **Product Leadership Systems Architecture (PLSA)** defines the canonical structure of the five core systems, the operating model defines **how leadership teams operate that architecture in practice** through recurring control mechanisms, decision cycles, portfolio reviews, delivery oversight, outcome evaluation, and strategic adjustment.
+Where the **Product Leadership Operating Model** defines how leadership teams run the canonical architecture, the **Product Leadership Operating Cadence** defines when recurring strategic reviews, governance reviews, delivery reviews, outcome reviews, and learning-driven adjustment occur across that operating model.
 
-It explains how product leadership turns the canonical architecture into a disciplined executive operating system.
-
----
-
-## Purpose
-
-The purpose of this artifact is to define the **canonical operating model** for the Product Leadership Operating System.
-
-This artifact clarifies how leadership teams:
-
-- translate strategic intent into operating direction
-- govern portfolio investments through executive review
-- oversee execution through recurring delivery mechanisms
-- evaluate customer and business outcomes through structured review
-- use learning signals to refine strategy, priorities, and operating behavior
-- maintain alignment across governance, delivery, and outcomes over time
-
-This artifact does **not** redefine the canonical architecture systems.
-
-Instead, it defines the operating cadence, forums, review structures, and executive control mechanisms used to run the canonical five-system architecture established in Pillar 1.
+This artifact is a canonical supporting Pillar 2 artifact. It remains subordinate to the canonical **Product Leadership Operating Model** and to the higher-precedence **Product Leadership Systems Architecture (PLSA)** artifacts. It does not redefine the five-system model. It defines the recurring cadence through which that model is sustained in practice.
 
 ---
 
-## Diagram
+# Purpose
+
+The purpose of this artifact is to define the recurring timing structure through which the **Product Leadership Operating Model** is executed over time.
+
+While the operating model explains the leadership mechanisms used to run the canonical architecture, this artifact explains how those mechanisms are sustained through recurring cadence, including:
+
+- strategic review cadence
+- portfolio governance cadence
+- delivery review cadence
+- customer outcome review cadence
+- learning and strategic adjustment cadence
+- recurring decision support across the operating loop
+
+This artifact clarifies how leadership teams maintain discipline across the full operating loop by establishing a repeatable cadence for review, coordination, adjustment, and executive decision-making.
+
+---
+
+# Diagram
 
 ```mermaid
 flowchart TB
 
-    A[Strategy Direction]
-    B[Portfolio Governance]
-    C[Delivery Oversight]
-    D[Outcome Review]
-    E[Learning and Strategic Adjustment]
+    A[Strategy Execution System]
+    B[Portfolio Governance System]
+    C[Product Delivery System]
+    D[Customer Outcomes System]
+    J[Learning and Strategic Adjustment]
 
-    F[Decision Intelligence Support]
+    A -->|Periodic strategic direction| B
+    B -->|Recurring investment governance| C
+    C -->|Ongoing delivery execution| D
+    D -->|Outcome evidence| J
+    J -->|Strategic adjustment| A
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> A
+    E[Decision Intelligence System]
+    E -.Supports cadence decisions.-> A
+    E -.Supports cadence decisions.-> B
+    E -.Supports cadence decisions.-> C
+    E -.Supports cadence decisions.-> D
+    E -.Supports cadence decisions.-> J
+
+    F[Strategic Review Cadence]
+    G[Portfolio Review Cadence]
+    H[Delivery Review Cadence]
+    I[Outcome Review Cadence]
+    K[Learning Review Cadence]
 
     F --> A
-    F --> B
-    F --> C
-    F --> D
-    F --> E
+    G --> B
+    H --> C
+    I --> D
+    K --> J
+
+    L[Executive Operating Rhythm]
+    M[Leadership Forums]
+
+    L --> F
+    L --> G
+    L --> H
+    L --> I
+    L --> K
+
+    M --> G
+    M --> H
+    M --> I
+    M --> K
 ```
 
 ---
 
-## Diagram Interpretation
+# Diagram Interpretation
 
-This diagram shows the leadership operating cycle used to run the Product Leadership Operating System.
+This diagram shows how the **Product Leadership Operating Model** is sustained through recurring cadence rather than through isolated events, one-time plans, or disconnected leadership meetings.
 
-The stages shown here are **operating-model constructs** used to explain the leadership cadence across the canonical architecture. They do not replace the five canonical systems defined in the Product Leadership Systems Architecture. Instead, they describe how leadership teams move through recurring strategic, governance, delivery, outcome, and learning activities in order to operate that architecture coherently.
+The primary operating flow preserves the canonical progression:
 
-The cycle begins with **Strategy Direction**, where leadership establishes enterprise priorities, strategic intent, investment themes, performance expectations, and operating constraints.
+**Strategy Execution System → Portfolio Governance System → Product Delivery System → Customer Outcomes System → Learning and Strategic Adjustment → Strategy Execution System**
 
-Those strategic signals move into **Portfolio Governance**, where leaders evaluate proposals, approve investments, sequence priorities, allocate resources, and govern tradeoffs across the product portfolio.
+This loop shows that the operating cadence is not simply a calendar of meetings. It is the time-based structure through which leadership repeatedly moves the organization from strategic direction to governed investment, through coordinated execution, into measurable outcomes, and back into learning-driven strategic adjustment.
 
-Approved work then moves into **Delivery Oversight**, where leadership monitors execution health, resolves escalations, reviews progress, manages dependencies, and maintains alignment between delivery activity and portfolio commitments.
+Each canonical stage is supported by a corresponding cadence layer:
 
-From there, leadership enters **Outcome Review**, where delivered work is evaluated against customer value, business impact, operational performance, and strategic objectives.
+- **Strategic Review Cadence** sustains periodic strategic direction and adjustment
+- **Portfolio Review Cadence** sustains investment governance and prioritization
+- **Delivery Review Cadence** sustains execution coordination and progress management
+- **Outcome Review Cadence** sustains evaluation of customer and business results
+- **Learning Review Cadence** sustains reflection, adaptation, and strategic correction
 
-Those findings then inform **Learning and Strategic Adjustment**, where leadership refines direction, updates assumptions, rebalances investments, and improves the next operating cycle.
+The **Decision Intelligence System** appears as a cross-cutting support layer because it informs decisions at every point in the cadence rather than acting as a separate sequential phase.
 
-**Decision Intelligence Support** informs each stage by providing telemetry, evidence, metrics, analysis, and decision support needed to run the model with discipline.
+The **Executive Operating Rhythm** structures the overall leadership tempo across all cadence layers, while **Leadership Forums** provide the decision environments through which governance, review, coordination, and adjustment are enacted.
 
----
-
-## Operating Logic
-
-The Product Leadership Operating Model functions as the recurring executive mechanism that turns architecture into coordinated leadership action.
-
-Its operating logic is based on five linked responsibilities:
-
-### 1. Strategic Direction
-
-Leadership establishes strategic priorities, operating intent, investment boundaries, and expected outcomes.
-
-This ensures that governance and execution remain anchored to enterprise strategy rather than fragmented local decisions.
-
-### 2. Governance and Allocation
-
-Leadership uses structured governance mechanisms to approve, defer, sequence, fund, or stop work across the portfolio.
-
-This converts strategic direction into governed investment action.
-
-### 3. Execution Oversight
-
-Leadership monitors delivery through recurring operating reviews, dependency visibility, escalation channels, and progress assessment.
-
-This keeps execution transparent, aligned, and governable without collapsing executive leadership into day-to-day delivery management.
-
-### 4. Performance Review
-
-Leadership evaluates whether delivered work is creating intended value across customer, business, portfolio, and operational dimensions.
-
-This prevents output completion from being mistaken for strategic success.
-
-### 5. Learning and Adjustment
-
-Leadership uses review signals, evidence, and operating feedback to refine strategy, rebalance priorities, strengthen control mechanisms, and improve future decisions.
-
-This closes the operating loop and ensures that the model remains adaptive over time.
-
-These responsibilities map directly to the broader leadership loop: strategic direction informs governance, governance directs delivery, delivery produces outcomes, outcome review drives learning, and learning feeds the next cycle of strategic direction.
-
-Together, these responsibilities form the core operating logic of the Product Leadership Operating Model.
+Together, these elements show that operating cadence is the recurring timing architecture that keeps the operating model functioning as a disciplined leadership system.
 
 ---
 
-## Supporting Diagram
+# Operating Logic
+
+The operating logic of the **Product Leadership Operating Cadence** is based on the principle that effective product leadership requires recurring review and decision cycles across the full operating loop.
+
+The cadence begins with the **Strategy Execution System**, where leadership periodically reviews strategic direction, priorities, and organizational intent. Those strategic inputs flow into the **Portfolio Governance System**, where investments are reviewed, prioritized, sequenced, and governed through recurring decision intervals.
+
+Governed investments then proceed through the **Product Delivery System**, where execution is monitored through recurring delivery reviews that surface progress, dependencies, risks, and operational issues. Delivery activity produces evidence that can be evaluated through the **Customer Outcomes System**, where leaders assess performance against intended customer, product, and business outcomes.
+
+That evaluation produces signals, evidence, and learning. Rather than ending the process at outcome review, the operating cadence explicitly includes **Learning and Strategic Adjustment**, where leadership interprets results, identifies implications, and feeds those insights back into future strategic direction.
+
+This means the cadence is not linear reporting. It is a closed-loop operating system that sustains strategy execution through recurring governance, delivery review, outcome interpretation, and adaptation.
+
+Throughout the cycle, the **Decision Intelligence System** improves cadence quality by supplying evidence, signals, metrics, trend analysis, and insight across every stage.
+
+The cadence is further structured through supporting Pillar 2 mechanisms:
+
+- the **Executive Operating Rhythm** establishes the overall timing and sequencing of recurring reviews
+- **Leadership Forums** provide the governance and coordination environments through which cadence is enacted
+
+The result is a disciplined operating pattern that ensures leadership attention is distributed across the full operating loop rather than concentrating only on planning or delivery status.
+
+---
+
+# Supporting Diagram
 
 ```mermaid
 flowchart LR
 
-    subgraph Leadership_Forums
-        A[Strategy and Planning Forums]
-        B[Portfolio Review Forums]
-        C[Delivery Review Forums]
-        D[Outcome Review Forums]
-        E[Adjustment and Escalation Forums]
-    end
+    A[Strategic Reviews]
+    B[Governance Reviews]
+    C[Delivery Reviews]
+    D[Outcome Reviews]
+    E[Learning Reviews]
+    F[Strategic Adjustment]
 
-    subgraph Operating_Objectives
-        F[Alignment]
-        G[Allocation]
-        H[Execution Confidence]
-        I[Performance Visibility]
-        J[Adaptation]
-    end
+    A --> B --> C --> D --> E --> F --> A
 
-    A --> F
-    B --> G
-    C --> H
-    D --> I
-    E --> J
+    G[Decision Intelligence]
+    H[Executive Rhythm]
+    I[Leadership Forums]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> A
+    G -.supports.-> A
+    G -.supports.-> B
+    G -.supports.-> C
+    G -.supports.-> D
+    G -.supports.-> E
+    G -.supports.-> F
+
+    H -.sequences.-> A
+    H -.sequences.-> B
+    H -.sequences.-> C
+    H -.sequences.-> D
+    H -.sequences.-> E
+
+    I -.enables decisions.-> B
+    I -.enables coordination.-> C
+    I -.enables review.-> D
+    I -.enables adjustment.-> E
 ```
 
 ---
 
-## Why This Matters
+# Why This Matters
 
-Modern product organizations do not operate effectively through strategy documents alone or through delivery motion alone.
+This artifact matters because many organizations treat cadence as a scheduling exercise rather than as a core part of operating system design.
 
-They require a disciplined operating model that explains how leadership teams repeatedly connect direction, governance, execution, outcomes, and learning.
+When cadence is reduced to a collection of recurring meetings, leadership attention often becomes fragmented. Strategy reviews become disconnected from governance, governance becomes disconnected from delivery, delivery becomes disconnected from outcomes, and learning becomes inconsistent or absent. The result is drift, reactive management, and weak strategic adjustment.
 
-Without a clear operating model:
+The **Product Leadership Operating Cadence** makes visible that cadence is the recurring timing architecture through which the broader product leadership system is sustained. It shows that effective leadership requires structured review intervals across every major stage of the operating loop, not only planning sessions or delivery status checks.
 
-- strategic priorities can fail to influence actual investment decisions
-- governance can become episodic or inconsistent
-- delivery oversight can become reactive rather than structured
-- outcome reviews can become disconnected from decision-making
-- learning can remain implicit rather than operationalized
-- executive leadership can lose operating coherence across the portfolio
+This matters because operating quality depends not only on what decisions are made, but on when decisions are revisited, how often evidence is reviewed, and whether the organization has a disciplined mechanism for converting outcomes into learning and strategic adjustment.
 
-This artifact matters because it makes the leadership operating system explicit.
-
-It defines the recurring mechanisms through which product leadership governs the portfolio, oversees delivery, evaluates performance, and adapts over time.
+By making the cadence architecture explicit, this artifact strengthens leadership discipline, improves repository consistency, and reinforces that Pillar 2 is responsible for running the canonical architecture through recurring executive rhythm.
 
 ---
 
-## How To Use This
+# How To Use This
 
-This artifact should be used as the canonical reference for how the Product Leadership Operating System is run.
+Use this artifact as the canonical supporting cadence framework for **Pillar 2: Product Leadership Operating Model**.
 
-Use it to:
+It is most useful when:
 
-- design executive operating cadence
-- align governance, review, and escalation structures
-- clarify how strategy is translated into portfolio decisions
-- connect delivery oversight to executive leadership mechanisms
-- define outcome review structures that drive adjustment
-- evaluate whether operating forums function as control mechanisms rather than reporting ceremonies
-- align supporting Pillar 2 artifacts to one coherent operating model
+- explaining how leadership activity is distributed across recurring review cycles
+- distinguishing cadence architecture from static organizational structure
+- aligning supporting Pillar 2 artifacts to the recurring operating loop
+- validating that review forums and timing mechanisms cover the full leadership system
+- assessing whether an organization is over-indexed on planning or delivery while under-managing outcomes and learning
 
-This artifact is especially useful when:
+This artifact should be read alongside the canonical **Product Leadership Operating Model**, the higher-precedence **Product Leadership Systems Architecture** artifacts, and the supporting cadence diagram artifact.
 
-- standing up a product leadership operating system
-- redesigning executive governance rhythms
-- clarifying leadership decision pathways
-- improving strategy-to-execution control
-- strengthening cross-functional operating alignment
-- assessing whether existing forums and reviews are working as an integrated model
+When reusing this content in READMEs, supporting documentation, or review materials, preserve the canonical system names and the operating loop exactly.
+
+This artifact should clarify how cadence operates. It should not replace or redefine the underlying architecture.
 
 ---
 
-## Relationship to the Operating System
+# Relationship to the Product Leadership Operating System
 
-This artifact is part of the **Product Leadership Operating System (PLOS)** and is the **canonical source artifact for Pillar 2: Product Leadership Operating Model**.
+Within the broader **Product Leadership Operating System (PLOS)**, this artifact belongs to **Pillar 2: Product Leadership Operating Model**.
 
-Its role is specific:
+Its role is to define the recurring timing architecture through which leadership teams operate the canonical five-system architecture established in **Pillar 1: Product Leadership Systems Architecture (PLSA)**.
 
-- **PLOS** is the overall portfolio and leadership operating system
-- **PLSA** is the canonical systems architecture defined in Pillar 1
-- the **Product Leadership Operating Model** defines the cadence, governance rhythms, executive forums, and operating mechanisms used to run that architecture
-- supporting Pillar 2 artifacts, including control models, operating rhythm artifacts, forum structures, cadence diagrams, and review models, must align to this operating model
+That distinction must remain explicit:
 
-This artifact therefore sits below the canonical architecture artifacts in Pillar 1 and above supporting Pillar 2 artifacts that operationalize specific elements of cadence, governance, forums, communication, and review.
+- **PLOS** is the overall operating system and portfolio
+- **PLSA** is the canonical systems architecture within Pillar 1
+- **Pillar 2** defines how leadership runs that canonical architecture
+- **Product Leadership Operating Cadence** defines the recurring timing structure through which that operating model is sustained
 
-It should remain aligned to:
+Accordingly, this artifact must remain subordinate to higher-precedence architecture sources, especially:
 
-- **Unified Product Leadership Systems Architecture**
-- **Product Leadership Systems Architecture Metamodel**
+1. **Unified Product Leadership Systems Architecture**
+2. **Product Leadership Systems Architecture Metamodel**
+3. **Product Leadership Operating Model**
 
-It governs alignment for supporting Pillar 2 artifacts such as:
-
-- **Executive Control Architecture**
-- **Executive Operating Rhythm**
-- **Decision Forum Structure**
-- **Leadership Communication Model**
-- **Operating Forums**
-- **Executive Product Council Model**
-- **Portfolio Review Model**
-- **Product Leadership Operating Cadence**
-- Pillar 2 supporting diagrams
+This artifact may define cadence logic, but it may not redefine the canonical five-system architecture, alter the operating loop, or introduce alternate structural models.
 
 ---
 
-## Summary
+# Summary
 
-The **Product Leadership Operating Model** defines how leadership teams run the Product Leadership Operating System through recurring strategy direction, portfolio governance, delivery oversight, outcome review, and adaptive adjustment.
+The **Product Leadership Operating Cadence** defines the recurring timing architecture through which leadership teams sustain the canonical operating model over time.
 
-It provides the canonical operating logic that connects executive cadence, decision forums, review structures, and leadership control mechanisms across the broader leadership loop.
+It reinforces the core operating loop:
 
-This artifact is not the canonical systems architecture itself.
+**Strategy → Governance → Delivery → Outcomes → Learning → Strategy**
 
-It is the **canonical Pillar 2 operating model** that explains how the established architecture is operated in practice across governance, delivery, outcomes, and learning.
+It also preserves the role of the **Decision Intelligence System** as a cross-cutting support system that informs every stage of the cadence rather than acting as a separate sequential phase.
+
+Used correctly, this artifact strengthens architectural clarity, clarifies the timing logic of the operating model, improves repository consistency, and helps ensure that Pillar 2 remains aligned to the broader **Product Leadership Operating System**.
 
 ---
 
-## License
+# License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
-
+This repository is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
