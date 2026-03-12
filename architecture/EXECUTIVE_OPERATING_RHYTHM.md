@@ -6,44 +6,45 @@
 
 # Executive Operating Rhythm
 
-The **Executive Operating Rhythm** defines the recurring leadership cadence used to run the **Product Leadership Operating Model** across strategy, governance, delivery, outcomes, and learning.
+The **Executive Operating Rhythm** defines the recurring leadership cadence used to run the **Product Leadership Operating Model** across the **Product Leadership Operating System (PLOS)**.
 
-Where the **Product Leadership Operating Model** defines the canonical operating logic for how leadership teams run the **Product Leadership Operating System (PLOS)**, this artifact defines the **recurring rhythm of executive reviews, governance moments, escalation paths, and adjustment cycles** used to sustain that operating model over time.
+Where the **Product Leadership Systems Architecture (PLSA)** defines the canonical five-system structure of the operating system, and the **Product Leadership Operating Model** defines the leadership mechanisms used to run that architecture, this artifact defines the recurring executive review rhythm through which those mechanisms are sustained in practice.
 
-It explains how leadership activity is structured as a disciplined rhythm rather than a collection of disconnected meetings.
+It explains how leadership teams sequence strategic reviews, governance reviews, delivery reviews, outcome reviews, and adaptive adjustment across a disciplined recurring cadence rather than through disconnected meetings or reactive escalation.
+
+This artifact is a canonical supporting Pillar 2 artifact. It remains subordinate to the canonical **Product Leadership Operating Model** and to the higher-precedence **Product Leadership Systems Architecture (PLSA)** artifacts. It does not redefine the five-system model.
 
 ---
 
-## Purpose
+# Purpose
 
-The purpose of this artifact is to define the **recurring executive rhythm** used to operate the Product Leadership Operating System.
+The purpose of this artifact is to define the recurring executive rhythm used to sustain the **Product Leadership Operating System** over time.
 
 This artifact clarifies how leadership teams:
 
-- establish a repeatable cadence for strategy, governance, delivery, and outcome review
-- connect executive forums into one operating rhythm rather than isolated events
-- create predictable review moments for decision-making, escalation, adjustment, and alignment
-- maintain leadership visibility across portfolio investments and execution health
-- reinforce learning and strategic adjustment through recurring operating cycles
+- establish a recurring cadence for strategic, governance, delivery, and outcome review
+- connect decision forums into an integrated operating rhythm
+- sequence review activity across the broader leadership loop
+- create predictable timing for escalation, intervention, and adjustment
+- reinforce executive discipline, visibility, and adaptability across the operating model
 
-This artifact does **not** redefine the canonical architecture or replace the Product Leadership Operating Model.
+This artifact does **not** redefine the canonical systems architecture or replace the **Product Leadership Operating Model**.
 
-Instead, it explains the cadence structure through which the operating model is sustained in practice.
+Instead, it defines the recurring review rhythm through which leadership operates the model in practice across the canonical five-system architecture.
 
 ---
 
-## Diagram
+# Diagram
 
 ```mermaid
 flowchart TB
 
-    A[Strategic Planning Rhythm]
-    B[Portfolio Governance Rhythm]
-    C[Delivery Review Rhythm]
-    D[Outcome Review Rhythm]
-    E[Learning and Adjustment Rhythm]
-
-    F[Decision Intelligence Inputs]
+    A[Strategic Rhythm]
+    B[Governance Rhythm]
+    C[Delivery Rhythm]
+    D[Outcome Rhythm]
+    E[Adaptive Adjustment Rhythm]
+    F[Decision Intelligence Support]
 
     A --> B
     B --> C
@@ -60,192 +61,161 @@ flowchart TB
 
 ---
 
-## Diagram Interpretation
+# Diagram Interpretation
 
-This diagram shows the recurring executive rhythm used to sustain the Product Leadership Operating Model over time.
+This diagram shows the recurring executive operating rhythm used to run the **Product Leadership Operating Model**.
 
-The stages shown here are **rhythm constructs**, not replacement names for the canonical systems. They explain how executive activity is sequenced across recurring planning, governance, review, and learning cycles so that the broader operating model remains disciplined and predictable.
+The stages shown here are rhythm constructs used to explain how leadership cadence is organized across the operating model. They are not replacement names for the canonical systems defined in the **Product Leadership Systems Architecture**.
 
-The rhythm begins with **Strategic Planning Rhythm**, where leadership establishes planning intent, strategic priorities, portfolio themes, and directional constraints for the next cycle.
+Instead, they show how executive review and operating cadence move across strategy, governance, delivery, outcomes, and learning as part of a recurring leadership loop.
 
-Those signals move into **Portfolio Governance Rhythm**, where leadership evaluates proposals, governs investment tradeoffs, approves or defers work, and aligns portfolio choices to strategic direction.
+The rhythm begins with **Strategic Rhythm**, where leadership reaffirms enterprise direction, reviews strategic priorities, evaluates changing constraints, and refreshes the intent that shapes downstream portfolio and operating decisions.
 
-Approved commitments then enter **Delivery Review Rhythm**, where leadership monitors progress, reviews risks, resolves escalations, and maintains confidence in execution against portfolio expectations.
+Those signals move into **Governance Rhythm**, where leadership evaluates investment choices, reviews prioritization, manages resource allocation, and governs portfolio tradeoffs through recurring executive review.
 
-From there, leadership enters **Outcome Review Rhythm**, where delivered work is evaluated against customer, business, operational, and strategic performance signals.
+Approved priorities then move into **Delivery Rhythm**, where leadership monitors progress, reviews risks, addresses dependencies, resolves escalations, and maintains execution confidence through a structured cadence of oversight.
 
-Those findings then inform **Learning and Adjustment Rhythm**, where leadership updates assumptions, refines priorities, strengthens control mechanisms, and shapes the next cycle of strategic planning.
+From there, leadership enters **Outcome Rhythm**, where delivered work is evaluated against customer outcomes, business performance, operating measures, and strategic intent through recurring review forums.
 
-**Decision Intelligence Inputs** support each stage by supplying evidence, telemetry, trends, and insight needed to run the rhythm with discipline.
+Those findings then inform **Adaptive Adjustment Rhythm**, where leadership translates review findings, escalation signals, and learning into corrective action, portfolio rebalancing, operating changes, or strategic refinement before the next cycle begins.
+
+**Decision Intelligence Support** informs every stage by supplying telemetry, evidence, performance signals, and analysis needed to improve review quality, timing, and decision effectiveness.
 
 ---
 
-## Operating Logic
+# Operating Logic
 
-The Executive Operating Rhythm functions as the cadence layer of the Product Leadership Operating Model.
+The **Executive Operating Rhythm** functions as the recurring cadence layer of the **Product Leadership Operating Model**.
 
 Its operating logic is based on five rhythm responsibilities:
 
-### 1. Planning Rhythm
+## 1. Strategic Rhythm Responsibility
 
-Leadership establishes recurring planning intervals that convert strategic intent into operating direction, review priorities, and executive focus areas.
+Leadership maintains a recurring rhythm for reviewing strategic direction, enterprise priorities, market or mission shifts, and value expectations.
 
-This ensures strategy is refreshed through cadence rather than treated as a one-time declaration.
+This rhythm ensures that the operating system remains anchored to evolving enterprise intent rather than running on stale assumptions.
 
-### 2. Governance Rhythm
+## 2. Governance Rhythm Responsibility
 
-Leadership creates recurring governance intervals for portfolio evaluation, prioritization, funding, sequencing, and tradeoff decisions.
+Leadership maintains a recurring rhythm for portfolio review, prioritization, investment governance, resource allocation, and tradeoff management.
 
-This ensures investment decisions happen through structured rhythm rather than ad hoc intervention.
+This rhythm ensures that strategic intent is regularly converted into governed portfolio action through an explicit review cadence.
 
-### 3. Review Rhythm
+## 3. Delivery Rhythm Responsibility
 
-Leadership maintains predictable delivery review intervals to monitor execution health, resolve escalations, review dependencies, and maintain delivery confidence.
+Leadership maintains a recurring rhythm for reviewing execution progress, delivery risks, dependencies, escalation signals, and operating constraints.
 
-This ensures leadership oversight is continuous and governable without becoming operational micromanagement.
+This rhythm ensures that execution remains visible, governable, and aligned to leadership intent over time.
 
-### 4. Performance Rhythm
+## 4. Outcome Rhythm Responsibility
 
-Leadership establishes recurring outcome reviews to assess value realization, business impact, customer results, and operating performance.
+Leadership maintains a recurring rhythm for reviewing customer results, business performance, operational effects, and realized value.
 
-This ensures performance evaluation is embedded in the operating model rather than treated as an afterthought.
+This rhythm ensures that outcome evaluation remains part of executive discipline rather than a downstream reporting afterthought.
 
-### 5. Adjustment Rhythm
+## 5. Adaptive Adjustment Responsibility
 
-Leadership uses recurring adjustment moments to refine direction, rebalance commitments, improve forum effectiveness, and strengthen the next cycle.
+Leadership maintains a recurring rhythm for converting review findings and evidence into strategic refinement, portfolio rebalancing, operating improvements, and leadership intervention.
 
-This ensures the operating rhythm remains adaptive and connected to learning.
+This rhythm ensures that learning closes the loop and that executive cadence remains adaptive rather than static.
 
-These rhythm responsibilities map across the broader leadership loop: planning reinforces strategy, governance structures investment decisions, review supports delivery oversight, performance evaluates outcomes, and adjustment closes the learning loop back into the next planning cycle.
-
-Together, these responsibilities form the recurring rhythm that keeps the operating model active, visible, and sustainable over time.
+Together, these responsibilities create the recurring operating rhythm that sustains the leadership system across strategy, governance, delivery, outcomes, and learning.
 
 ---
 
-## Supporting Diagram
+# Supporting Diagram
 
 ```mermaid
 flowchart LR
 
-    subgraph Executive_Rhythm_Forums
-        A[Planning Forums]
-        B[Governance Forums]
-        C[Delivery Reviews]
-        D[Outcome Reviews]
-        E[Adjustment Forums]
-    end
+    A[Strategic Reviews]
+    B[Governance Reviews]
+    C[Delivery Reviews]
+    D[Outcome Reviews]
+    E[Adjustment Reviews]
 
-    subgraph Rhythm_Objectives
-        F[Cadence Discipline]
-        G[Decision Timeliness]
-        H[Execution Visibility]
-        I[Performance Visibility]
-        J[Adaptive Learning]
-    end
+    A --> B --> C --> D --> E --> A
 
-    A --> F
-    B --> G
-    C --> H
-    D --> I
-    E --> J
+    F[Decision Intelligence]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> A
+    F -.supports.-> A
+    F -.supports.-> B
+    F -.supports.-> C
+    F -.supports.-> D
+    F -.supports.-> E
 ```
 
 ---
 
-## Why This Matters
+# Why This Matters
 
-A strong operating model is not sustained by structure alone.
+This artifact matters because leadership systems often fail not from lack of strategy, but from lack of disciplined executive rhythm.
 
-It depends on a disciplined executive rhythm that makes planning, governance, review, and adjustment repeatable over time.
+Without a defined operating rhythm, strategy becomes episodic, governance becomes reactive, delivery oversight becomes inconsistent, outcome evaluation becomes fragmented, and learning fails to shape future action.
 
-Without an explicit executive operating rhythm:
+The **Executive Operating Rhythm** makes explicit the recurring review structure through which leadership keeps the operating model active, visible, and governable over time.
 
-- leadership forums can become disconnected events
-- governance can become inconsistent or delayed
-- delivery reviews can become reactive
-- outcome evaluation can become sporadic
-- learning can fail to influence the next cycle
-- executive teams can lose operating coherence even when the model itself is well designed
+It shows that operating quality depends not only on what leadership reviews, but on whether review activity is sequenced, repeated, and connected across the full operating loop.
 
-This artifact matters because it makes the cadence logic of the operating model explicit.
-
-It defines how leadership maintains momentum, predictability, visibility, and adaptive control across the Product Leadership Operating System.
+By defining this rhythm explicitly, the artifact helps prevent disconnected meetings, ad hoc escalation, and leadership drift across the broader **Product Leadership Operating System**.
 
 ---
 
-## How To Use This
+# How To Use This
 
-This artifact should be used as the reference for designing and evaluating the recurring cadence used to run the Product Leadership Operating Model.
+Use this artifact to define the recurring executive review rhythm that sustains the **Product Leadership Operating Model**.
 
-Use it to:
+It is most useful when:
 
-- define the executive review rhythm across strategy, governance, delivery, outcomes, and adjustment
-- align leadership forums into one coherent cadence
-- identify where escalation, decision, and adjustment moments should recur
-- assess whether current review structures operate as an integrated rhythm
-- strengthen the repeatability of executive oversight without creating unnecessary ceremony
-- align supporting cadence and forum artifacts to one rhythm model
+- designing executive review cadences
+- connecting strategy, governance, delivery, outcomes, and adjustment into one leadership loop
+- aligning decision forums to recurring review intervals
+- validating that leadership oversight is structured rather than reactive
+- reinforcing cadence discipline across Pillar 2 artifacts
 
-This artifact is especially useful when:
+This artifact should be read alongside the canonical **Product Leadership Operating Model**, the **Product Leadership Operating Cadence** artifact, and the higher-precedence **Product Leadership Systems Architecture** artifacts.
 
-- designing an executive operating cadence
-- restructuring leadership review forums
-- diagnosing fragmented operating rhythms
-- improving predictability in governance and delivery oversight
-- strengthening feedback loops between outcomes and strategic adjustment
-- aligning multiple leadership forums into one operating sequence
+It clarifies executive rhythm within the broader cadence model. It does not replace that broader cadence model.
 
 ---
 
-## Relationship to the Operating System
+# Relationship to the Product Leadership Operating System
 
-This artifact is part of the **Product Leadership Operating System (PLOS)** and is a **canonical supporting artifact for Pillar 2: Product Leadership Operating Model**.
+Within the broader **Product Leadership Operating System (PLOS)**, this artifact belongs to **Pillar 2: Product Leadership Operating Model**.
 
-Its role is specific:
+Its role is to define the recurring executive review rhythm through which leadership teams sustain the operating model over time.
 
-- **PLOS** is the overall portfolio and leadership operating system
-- **PLSA** is the canonical systems architecture defined in Pillar 1
-- the **Product Leadership Operating Model** is the canonical Pillar 2 source artifact defining how the architecture is run
-- the **Executive Operating Rhythm** defines the recurring cadence used to sustain that operating model in practice
+That distinction must remain explicit:
 
-This artifact supports the operating model without replacing it and reinforces the recurring leadership rhythm across strategy, governance, delivery, outcomes, and learning.
+- **PLOS** is the overall operating system and portfolio
+- **PLSA** is the canonical systems architecture within Pillar 1
+- **Pillar 2** defines how leadership runs that canonical architecture
+- **Product Leadership Operating Cadence** defines the broader recurring timing structure
+- **Executive Operating Rhythm** defines the executive review rhythm within that broader timing structure
 
-It should remain aligned to:
+Accordingly, this artifact must remain subordinate to higher-precedence architecture sources, especially:
 
-- **Unified Product Leadership Systems Architecture**
-- **Product Leadership Systems Architecture Metamodel**
-- **Product Leadership Operating Model**
+1. **Unified Product Leadership Systems Architecture**
+2. **Product Leadership Systems Architecture Metamodel**
+3. **Product Leadership Operating Model**
+4. **Product Leadership Operating Cadence**
 
-It also supports downstream artifacts related to:
-
-- decision forum structure
-- operating forums
-- leadership communication
-- portfolio review cadence
-- product leadership operating cadence diagrams
-- escalation and adjustment mechanisms
+This artifact may define executive rhythm, but it may not redefine the canonical five-system architecture, alter the operating loop, or introduce alternate core system structures.
 
 ---
 
-## Summary
+# Summary
 
-The **Executive Operating Rhythm** defines the recurring cadence through which leadership teams sustain the Product Leadership Operating Model over time.
+The **Executive Operating Rhythm** defines the recurring executive review cadence through which leadership teams sustain the **Product Leadership Operating Model** over time.
 
-It explains how planning, governance, delivery review, outcome evaluation, and adjustment are connected into one repeatable executive rhythm.
+It sequences strategic, governance, delivery, outcome, and adaptive-adjustment reviews into one recurring leadership loop.
 
-This artifact is not the canonical operating model itself.
+It also preserves the role of **Decision Intelligence** as a cross-cutting support layer that improves timing, review quality, and decision effectiveness across the rhythm.
 
-It is a **supporting Pillar 2 review structure artifact** that explains how the operating model is maintained through disciplined leadership cadence across the broader operating loop.
+Used correctly, this artifact strengthens executive discipline, improves operating visibility, and helps ensure that Pillar 2 remains aligned to the broader **Product Leadership Operating System**.
 
 ---
 
-## License
+# License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
-
+This repository is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
