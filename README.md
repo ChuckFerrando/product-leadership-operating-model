@@ -1,241 +1,292 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-blue.svg)
+![Status](https://img.shields.io/badge/Status-Stable-blue.svg)
 ![Type](https://img.shields.io/badge/Type-Operating%20Model-purple.svg)
-![Product Leadership OS](https://img.shields.io/badge/Product%20Leadership-Operating%20Model-black.svg)
-
-This repository documents the **Product Leadership Operating Model (PLOM)** — the leadership cadence, governance forums, and decision rhythms used to operate the **Product Leadership Systems Architecture (PLSA)**.
-
-The operating model defines **how leadership teams run the architecture** through structured planning cycles, portfolio governance, delivery coordination, and outcome evaluation.
-
----
+![Pillar](https://img.shields.io/badge/Pillar-2%20Operating%20Model-black.svg)
+![Product Leadership OS](https://img.shields.io/badge/Product%20Leadership-Operating%20System-black.svg)
 
 # Product Leadership Operating Model
 
-The diagram below illustrates the **leadership operating cycle** used to run modern product organizations.
+The **Product Leadership Operating Model** repository documents **Pillar 2** of the **Product Leadership Operating System (PLOS)**.
 
-The operating model coordinates strategy, governance, execution, and outcome evaluation through a structured leadership rhythm.
+This repository explains how leadership teams operate the canonical architecture defined in **Pillar 1: Product Leadership Systems Architecture (PLSA)** through structured cadence, governance forums, executive review rhythms, communication pathways, and control mechanisms.
 
-```mermaid
-flowchart TB
+Where **PLSA** defines the canonical five-system architecture, the **Product Leadership Operating Model** defines how leadership runs that architecture in practice.
 
-Strategy["Strategy Direction"]
-
-Planning["Quarterly Strategy Planning"]
-
-Governance["Portfolio Governance Reviews"]
-
-Delivery["Product Delivery Reviews"]
-
-Outcomes["Outcome Evaluation"]
-
-Strategy --> Planning
-Planning --> Governance
-Governance --> Delivery
-Delivery --> Outcomes
-Outcomes --> Strategy
-```
+This repository is a navigation and orientation layer for the Pillar 2 operating model library. It summarizes the purpose of the repository, shows how the major artifacts relate to one another, and helps readers understand how to navigate the supporting architecture.
 
 ---
 
 # Operating Model Overview
 
-The **Product Leadership Operating Model** defines the leadership mechanisms used to coordinate strategy, governance, delivery, and outcome evaluation across modern product organizations.
+The **Product Leadership Operating Model** explains how product leadership teams run the canonical architecture through disciplined leadership mechanisms rather than through ad hoc coordination.
 
-Where the **Product Leadership Systems Architecture (PLSA)** defines the structural model of the product leadership system, the operating model defines the **cadence, forums, and decision rhythms** used to run that system.
+It shows how organizations translate:
 
-The operating model establishes:
+**strategy → governed investment → coordinated delivery → measurable outcomes → learning → strategic adjustment**
 
-- leadership decision forums
-- strategic planning cycles
-- portfolio governance reviews
-- delivery coordination mechanisms
-- outcome evaluation processes
+through a structured executive operating rhythm.
 
-These operating mechanisms ensure that strategic direction is translated into governed investments, coordinated execution, measurable outcomes, and continuous learning.
+Within the broader **Product Leadership Operating System**, Pillar 2 is responsible for the leadership mechanisms that sustain the operating loop:
+
+**Strategy → Governance → Delivery → Outcomes → Learning → Strategy**
+
+Decision Intelligence supports every stage of that loop.
+
+---
+
+# Top-Level Operating Model Diagram
+
+```mermaid
+flowchart TB
+
+    A[Strategy Execution System]
+    B[Portfolio Governance System]
+    C[Product Delivery System]
+    D[Customer Outcomes System]
+    J[Learning and Strategic Adjustment]
+
+    A -->|Strategic direction| B
+    B -->|Governed investment decisions| C
+    C -->|Coordinated execution| D
+    D -->|Outcome evidence| J
+    J -->|Strategic adjustment| A
+
+    E[Decision Intelligence System]
+    E -.Decision support.-> A
+    E -.Decision support.-> B
+    E -.Decision support.-> C
+    E -.Decision support.-> D
+    E -.Decision support.-> J
+
+    F[Executive Operating Rhythm]
+    G[Decision Forums]
+    H[Leadership Communication Model]
+    I[Executive Control Architecture]
+
+    F --> A
+    F --> B
+    F --> C
+    F --> D
+    F --> J
+
+    G --> B
+    G --> C
+    G --> D
+
+    H --> A
+    H --> B
+    H --> C
+    H --> D
+    H --> J
+
+    I --> B
+    I --> C
+```
+
+---
+
+# Repository Purpose
+
+The purpose of this repository is to define the leadership operating mechanisms required to run the canonical product leadership architecture.
+
+These mechanisms include:
+
+- executive cadence
+- decision forums
+- governance structures
+- review models
+- control logic
+- communication pathways
+- portfolio review mechanisms
+- operating rhythm diagrams
+
+Taken together, these artifacts explain how leadership teams sustain strategic alignment, govern investments, coordinate delivery, evaluate outcomes, and adapt based on learning.
+
+This repository does **not** redefine the architecture. It operates subordinate to the higher-precedence Pillar 1 architectural sources.
 
 ---
 
 # 10-Second Overview
 
-This repository explains how leadership teams operate the product organization through a structured leadership rhythm:
+This repository explains how leadership teams run the product organization through a disciplined operating model:
 
-- strategy defines organizational priorities and investment themes
-- governance converts strategy into portfolio decisions
-- delivery coordinates execution across product and engineering
-- outcomes evaluate customer impact and value realization
-- leadership learning informs future strategy
+- strategy establishes direction and priorities
+- governance converts strategy into investment decisions
+- delivery coordinates execution across teams and dependencies
+- outcomes evaluate realized customer and business value
+- learning informs strategic adjustment
+- decision intelligence supports every stage
 
-The operating model ensures that these systems work together through structured forums, decision cadences, and operating routines.
-
----
-
-# Operating Model Structure
-
-The Product Leadership Operating Model organizes leadership work through four primary operating mechanisms.
-
-| Operating Mechanism | Purpose |
-|---|---|
-| Strategic Planning | Align leadership around strategic direction and investment themes |
-| Portfolio Governance | Evaluate initiatives, prioritize investments, and manage tradeoffs |
-| Delivery Coordination | Monitor execution progress and resolve cross-functional dependencies |
-| Outcome Evaluation | Assess whether delivered capabilities created meaningful customer value |
-
-Together these mechanisms define the leadership rhythm used to run the product organization.
+The operating model ensures that these mechanisms function as a coherent leadership system rather than as disconnected meetings or reporting routines.
 
 ---
 
-# Architecture Knowledge Map
+# Pillar 2 Artifact Map
 
 ```mermaid
 flowchart TB
 
-ROOT["Product Leadership Operating Model"]
+    ROOT[Product Leadership Operating Model]
 
-subgraph ARCHITECTURE["Operating Model Architecture"]
-A1["Product Leadership Operating Model"]
-A2["Executive Operating Rhythm"]
-end
+    subgraph CANONICAL[Canonical Source]
+        A1[Product Leadership Operating Model]
+    end
 
-subgraph GOVERNANCE["Leadership Governance"]
-G1["Executive Product Council"]
-G2["Portfolio Review Model"]
-end
+    subgraph SUPPORTING[Canonical Supporting Artifacts]
+        B1[Executive Control Architecture]
+        B2[Executive Operating Rhythm]
+        B3[Decision Forum Structure]
+        B4[Operating Forums]
+        B5[Leadership Communication Model]
+        B6[Executive Product Council Model]
+        B7[Portfolio Review Model]
+        B8[Product Leadership Operating Cadence]
+    end
 
-subgraph CADENCE["Operating Cadence"]
-C1["Product Leadership Operating Cadence"]
-C2["Decision Forum Structure"]
-end
+    subgraph DIAGRAMS[Supporting Diagram Artifacts]
+        C1[Product Leadership Operating Model Diagram]
+        C2[Operating Cadence Diagram]
+    end
 
-subgraph ARTIFACTS["Operating Artifacts"]
-R1["Leadership Communication Model"]
-R2["Operating Forums"]
-end
+    ROOT --> A1
+    A1 --> B1
+    A1 --> B2
+    A1 --> B3
+    A1 --> B4
+    A1 --> B5
+    A1 --> B6
+    A1 --> B7
+    A1 --> B8
 
-ROOT --> ARCHITECTURE
-ROOT --> GOVERNANCE
-ROOT --> CADENCE
-ROOT --> ARTIFACTS
-
-A1 --> A2
-A2 --> G1
-G1 --> G2
-G2 --> C1
-C1 --> C2
-C2 --> R1
-R1 --> R2
+    A1 --> C1
+    B8 --> C2
 ```
 
 ---
 
-# Core Operating Model Artifacts
+# Core Repository Artifacts
 
-This repository contains a set of artifacts that describe how leadership teams operate the product organization through structured governance, cadence, and coordination mechanisms.
+This repository contains the core artifacts that define how leadership teams operate the product organization through governance, cadence, communication, control, and review mechanisms.
 
-These artifacts define the operating rhythm that connects strategic direction, portfolio governance, delivery coordination, and outcome evaluation.
-
-### Architecture
+## Canonical Source Artifact
 
 - **Product Leadership Operating Model**  
-  Defines the canonical operating model used to coordinate strategy, governance, delivery, and outcomes.
+  Defines the canonical Pillar 2 operating model used to run the five-system architecture.
+
+## Canonical Supporting Artifacts
+
+- **Executive Control Architecture**  
+  Defines the control logic, escalation structure, and governance discipline used to sustain the operating model.
 
 - **Executive Operating Rhythm**  
-  Describes the leadership planning cycles and governance rhythms used to run the organization.
-
-### Governance
-
-- **Executive Product Council Model**  
-  Defines the leadership forum responsible for strategic alignment and portfolio decision-making.
-
-- **Portfolio Review Model**  
-  Describes how leadership teams review portfolio performance, investment decisions, and delivery progress.
-
-### Cadence
-
-- **Product Leadership Operating Cadence**  
-  Defines the structured leadership rhythm that connects strategy planning, governance reviews, delivery coordination, and outcome evaluation.
+  Defines the recurring executive review rhythm through which leadership teams sustain strategic and operational oversight.
 
 - **Decision Forum Structure**  
-  Explains the hierarchy of leadership decision forums used to govern strategy, investments, and execution.
-
-### Operating Artifacts
-
-- **Leadership Communication Model**  
-  Describes how strategic direction, portfolio decisions, and delivery priorities are communicated across the organization.
+  Defines the hierarchy and role of decision environments used to govern strategy, investments, and execution.
 
 - **Operating Forums**  
-  Defines the recurring leadership meetings that coordinate strategy execution, portfolio governance, and delivery oversight.
+  Defines the recurring leadership forums that coordinate governance, delivery, review, and adjustment.
 
-Together these artifacts define how leadership teams operate the product organization through a coherent and repeatable governance rhythm.
+- **Leadership Communication Model**  
+  Defines how strategic direction, governance decisions, operating priorities, and feedback move across the leadership system.
+
+- **Executive Product Council Model**  
+  Defines the executive-level leadership forum responsible for strategic alignment and portfolio-level coordination.
+
+- **Portfolio Review Model**  
+  Defines the recurring review structure used to evaluate portfolio performance, investment decisions, and delivery progress.
+
+- **Product Leadership Operating Cadence**  
+  Defines the recurring timing architecture through which the operating model is executed over time.
+
+## Supporting Diagram Artifacts
+
+- **Product Leadership Operating Model Diagram**  
+  Visualizes how the Product Leadership Operating Model runs the canonical architecture in practice.
+
+- **Operating Cadence Diagram**  
+  Visualizes the recurring cadence structure through which leadership sustains the operating model.
 
 ---
 
 # Repository Structure
 
-This repository functions as an **operating model documentation library** for the Product Leadership Operating Model.
+This repository functions as an executive architecture library for **Pillar 2: Product Leadership Operating Model**.
 
-Artifacts are organized into the following directories.
+Artifacts are organized into the following directories:
 
 | Directory | Purpose |
 |---|---|
-| `architecture/` | Canonical operating model definitions and leadership system descriptions |
-| `frameworks/` | Leadership governance frameworks and operating cadence models |
-| `artifacts/` | Decision forums, leadership coordination mechanisms, and supporting operating structures |
-| `diagrams/` | Reusable operating model diagrams used across documentation |
+| `architecture/` | Canonical operating model definitions, structural Pillar 2 architecture artifacts, and foundational operating-model descriptions |
+| `frameworks/` | Reference structures, cadence frameworks, and supporting conceptual models |
+| `artifacts/` | Governance mechanisms, review structures, communication models, councils, forums, and control artifacts |
+| `diagrams/` | Reusable visual artifacts that support interpretation of the operating model |
 
-This structure keeps the repository navigable while separating core architecture models, governance frameworks, operating artifacts, and visual documentation.
+This structure keeps the repository navigable while preserving the distinction between canonical architecture, supporting frameworks, operating artifacts, and visual documentation.
 
 ---
 
-# Relationship to the Product Leadership Systems Architecture
+# Relationship to the Product Leadership Operating System
 
-The **Product Leadership Operating Model** complements the **Product Leadership Systems Architecture (PLSA)**.
+Within the broader **Product Leadership Operating System (PLOS)**, this repository defines **Pillar 2: Product Leadership Operating Model**.
 
-The Product Leadership Systems Architecture defines the **structural design of the leadership system** that connects strategy, governance, delivery, customer outcomes, and decision intelligence.
+That distinction is essential:
 
-The Product Leadership Operating Model defines **how leadership teams operate that system through structured governance forums, decision cycles, and leadership cadences**.
+- **PLOS** is the overall operating system and portfolio
+- **PLSA** is the canonical systems architecture defined in Pillar 1
+- **Pillar 2** defines how leadership runs that architecture
 
 In simple terms:
 
-- **Architecture** defines the leadership system.
-- **Operating Model** defines how leaders run that system.
+- **Architecture** defines the system
+- **Operating Model** defines how leadership operates the system
 
-The two repositories should therefore be viewed together:
+This repository should therefore be read together with the Pillar 1 architecture repository:
 
-- the architecture repository explains the structure of the leadership system
-- the operating model repository explains the governance mechanisms used to operate it
+- the architecture repository explains the canonical five-system structure
+- the operating model repository explains the governance, cadence, communication, and review mechanisms used to run it
 
 ---
 
 # Documentation Standard
 
-All repositories in this portfolio follow a consistent documentation standard.
+All repositories in this portfolio follow a common architecture-documentation standard.
 
 Key principles include:
 
-- executive-level tone that reflects leadership operating models
-- architecture-first framing that emphasizes systems, interfaces, and governance mechanisms
-- GitHub-compatible Mermaid diagrams used for visual architecture explanations
-- consistent terminology across repositories to preserve architectural integrity
-- documentation structure similar to internal operating architecture libraries used by large technology organizations
+- executive-level tone
+- architecture-first framing
+- canonical terminology preservation
+- GitHub-compatible Mermaid diagrams
+- clear distinction between canonical, supporting, derivative, and experimental artifacts
+- README content that supports navigation without redefining architecture
 
 This repository is intentionally **not**:
 
 - a coding tutorial
-- a software development framework
+- a software implementation guide
 - a product management handbook
-- academic research
+- agile training content
+- a blog-style thought piece
 
-It is an **operating model architecture library for product leadership systems**.
+It is an executive operating model architecture library within the **Product Leadership Operating System**.
+
+---
+
+# How To Navigate This Repository
+
+Use this repository in the following order:
+
+1. Start with **Product Leadership Operating Model** for the canonical Pillar 2 definition.
+2. Review **Executive Control Architecture**, **Executive Operating Rhythm**, and **Product Leadership Operating Cadence** to understand the operating structure.
+3. Review **Decision Forum Structure**, **Operating Forums**, **Executive Product Council Model**, and **Portfolio Review Model** to understand leadership decision environments.
+4. Review **Leadership Communication Model** to understand how alignment is maintained across the operating loop.
+5. Use the supporting diagram artifacts for visual orientation and cross-repository consistency.
+
+This sequence preserves architectural precedence while improving interpretability.
 
 ---
 
 # License
 
-This repository is released under the **MIT License**.
-
-The MIT License permits reuse, modification, and distribution of this material provided that the original copyright and license notice are included.
-
-See the full license text in the repository:
-
-[MIT License](LICENSE)
-
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
