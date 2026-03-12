@@ -6,13 +6,13 @@
 
 # Product Leadership Operating Model
 
-The **Product Leadership Operating Model** repository documents **Pillar 2** of the **Product Leadership Operating System (PLOS)**.
-
-This repository explains how leadership teams operate the canonical architecture defined in **Pillar 1: Product Leadership Systems Architecture (PLSA)** through structured cadence, governance forums, executive review rhythms, communication pathways, and control mechanisms.
+This repository documents **Pillar 2** of the **Product Leadership Operating System (PLOS)** and defines how leadership teams operate the **Product Leadership Systems Architecture (PLSA)** through governance forums, executive review rhythms, operating cadence, communication pathways, and control mechanisms.
 
 Where **PLSA** defines the canonical five-system architecture, the **Product Leadership Operating Model** defines how leadership runs that architecture in practice.
 
 This repository is a navigation and orientation layer for the Pillar 2 operating model library. It summarizes the purpose of the repository, shows how the major artifacts relate to one another, and helps readers understand how to navigate the supporting architecture.
+
+---
 
 ---
 
